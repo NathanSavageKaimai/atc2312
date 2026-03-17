@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: NathanSavageKaimai/atc2312
+  repo: 2312ATC/2312atc
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
