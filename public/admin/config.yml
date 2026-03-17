@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: 2312ATC/2312atc
-  site_domain: 2312atc.netlify.app
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
