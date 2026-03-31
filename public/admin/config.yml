@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  repo: ATC2312/atc2312
+  repo: 2312ATC/2312atc
   base_url: https://decap.tavistock.air-cadets.org
   auth_endpoint: /auth
 
