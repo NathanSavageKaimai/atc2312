@@ -1,6 +1,9 @@
 backend:
   name: github
-  repo: NathanSavageKaimai/atc2312
+  branch: main
+  repo: ATC2312/atc2312
+  base_url: https://decap.tavistock.air-cadets.org
+  auth_endpoint: /auth
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
