@@ -22,6 +22,7 @@ collections:
     label: "Landing Carousel"
     folder: "src/content/landingCarousel"
     create: true
+    identifier_field: "image"
     fields:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Link", name: "link", widget: "string", required: false, hint: "Optional link to the image", pattern: ["\/[a-zA-Z0-9_\/]+", "must start with a slash"] }
