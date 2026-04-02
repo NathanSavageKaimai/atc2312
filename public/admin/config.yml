@@ -18,5 +18,13 @@ collections:
       - { label: "Featured Image", name: "heroImage", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "landingCarousel"
+    label: "Landing Carousel"
+    folder: "src/content/landingCarousel"
+    create: true
+    fields:
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Link", name: "link", widget: "string", required: false, hint: "Optional link to the image", pattern: ["\/[a-zA-Z0-9_\/]+", "must start with a slash"] }
+
 media_folder: "src/assets/images" # Location where files will be stored in the repo
 public_folder: "../../assets/images" # The src attribute for uploaded media
